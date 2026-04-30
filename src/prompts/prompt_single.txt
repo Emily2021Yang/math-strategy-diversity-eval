@@ -1,0 +1,13 @@
+Solve the following problem.
+
+Provide your answer in the structured format below. Keep explanations concise.
+
+Format:
+{
+  "final_answer": "...",
+  "method_summary": "...",
+  "key_steps": ["...", "...", "..."]
+}
+
+Problem:
+{problem}

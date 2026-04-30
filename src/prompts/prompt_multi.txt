@@ -1,0 +1,22 @@
+Solve the following problem using MULTIPLE DISTINCT strategies.
+
+A distinct solution strategy is defined by the critical reasoning that determines the structural form of the solution and enables the problem to be solved.
+Critical reasoning refers to the key conceptual or representational move that transforms the problem into a solvable form. 
+Differences in algebraic manipulation, computational order, or explanatory detail are not treated as distinct strategies if they rely on the same underlying reasoning structure.
+
+Keep each strategy concise.
+
+Format:
+{
+  "strategies": [
+    {
+      "strategy_name": "...",
+      "method_summary": "...",
+      "key_steps": ["...", "...", "..."],
+      "final_answer": "..."
+    }
+  ]
+}
+
+Problem:
+{problem}

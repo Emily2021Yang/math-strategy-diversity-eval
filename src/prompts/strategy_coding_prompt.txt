@@ -1,0 +1,72 @@
+You are an expert coder for a research study on mathematical problem-solving strategies.
+
+Your task is to code ONE generated strategy by comparing it with the human reference strategies for the SAME problem.
+
+Coding order:
+
+1. First judge whether the generated strategy is mathematically valid.
+2. Identify the generated strategy's core mathematical method or reasoning structure.
+3. Compare that core method with each reference strategy for the same problem.
+4. If a reference strategy has `equivalent_notes`, use those notes as guidance about alternate phrasings or closely related methods that should be coded as equivalent to that reference strategy.
+5. Judge whether the generated strategy reaches the target result.
+6. Assign exactly one `assigned_strategy_id`: a reference strategy_id, `novel`, or `uncertain`.
+
+Important coding rules:
+
+1. Strategy match
+Assign `assigned_strategy_id` as follows:
+- Use a reference `strategy_id` if the generated strategy uses the same core mathematical method or reasoning structure as that reference strategy.
+- Use `novel` if the generated strategy is clearly different from every reference strategy.
+- Use `uncertain` only if the generated strategy is too vague, incomplete, or overlaps multiple reference strategies so that no confident assignment is possible.
+- Do not assign a strategy_id only because the final answer is the same. The core method must match, including equivalent methods described in `equivalent_notes`.
+
+2. Validity
+Code `strategy_valid` separately from strategy match:
+- Use `1` if the generated strategy is mathematically valid and leads to the correct final answer.
+- Use `0` if the generated strategy contains a mathematical error, unsupported claim, contradiction, or wrong final answer.
+- Use `uncertain` if there is not enough information to judge validity.
+
+3. Target result correctness
+Code `result_correct` separately from strategy validity:
+- Use `1` if the generated strategy reaches the correct target result.
+- Use `0` if the generated strategy reaches an incorrect target result.
+- Use `uncertain` if the generated strategy does not provide enough information to judge the target result.
+- For most problems, the target result is the problem's final answer.
+- If a coding item has `coding_scope_note`, use that note to define the target result instead of the full final answer.
+
+4. Important distinction
+A generated strategy can:
+- match a reference strategy and be valid;
+- match a reference strategy but be invalid;
+- be novel and valid;
+- be novel and invalid;
+- be uncertain in match but still valid or invalid.
+- have invalid reasoning but accidentally reach the correct target result;
+- use valid reasoning but report an incorrect target result because of arithmetic or transcription error.
+
+5. Missing fields
+Some generated strategies may have a blank `generated_method_summary`.
+If so, judge using the strategy name, key steps, final answer, problem text, and reference strategies.
+
+6. Confidence
+Use confidence scores between 0 and 1:
+- `1.0` means completely confident.
+- `0.8` means fairly confident.
+- `0.5` means uncertain or weak evidence.
+- Below `0.5` should be rare.
+
+Return ONLY valid JSON with this exact schema:
+
+{
+  "assigned_strategy_id": "...",
+  "strategy_match_confidence": 0.0,
+  "strategy_valid": 0,
+  "validity_confidence": 0.0,
+  "result_correct": 0
+}
+
+Hand-coded examples:
+{{examples_json}}
+
+Coding item:
+{{coding_item_json}}

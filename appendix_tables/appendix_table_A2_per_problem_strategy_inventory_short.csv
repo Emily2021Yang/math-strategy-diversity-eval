@@ -1,0 +1,81 @@
+problem_id,domain,num_aops_strategies,num_novel_strategies,num_total_strategies
+2017AIMEI5,Algebra,3,0,3
+2017AMC12A15,Algebra,1,2,3
+2017AMC12A23,Algebra,2,0,2
+2018AMC10A12,Algebra,4,0,4
+2018AMC12A14,Algebra,2,0,2
+2019AMC10A15,Algebra,2,0,2
+2019AMC12A21,Algebra,2,0,2
+2020AMC10B24,Algebra,3,0,3
+2021AMC12B21,Algebra,4,1,5
+2024AMC10A13,Algebra,2,0,2
+2024AMC10B23,Algebra,3,0,3
+2024AMC12A13,Algebra,4,0,4
+2025AMC10A5,Algebra,4,0,4
+2025AMC12A25,Algebra,1,0,1
+2016AIMEII13,Combinatorics,2,1,3
+2016AMC10A18,Combinatorics,3,1,4
+2017AIMEII11,Combinatorics,1,4,5
+2017AIMEII14,Combinatorics,3,0,3
+2017AMC10B13,Combinatorics,3,0,3
+2018AMC10A11,Combinatorics,3,0,3
+2019AMC10A17,Combinatorics,2,0,2
+2020AMC10B23,Combinatorics,3,1,4
+2022AMC10A14,Combinatorics,1,2,3
+2022AMC10A24,Combinatorics,5,1,6
+2022AMC10B14,Combinatorics,2,1,3
+2022AMC10B18,Combinatorics,3,1,4
+2023AMC10A18,Combinatorics,3,1,4
+2023AMC12A24,Combinatorics,3,2,5
+2023AMC12B5,Combinatorics,2,2,4
+2024AIMEI11,Combinatorics,1,2,3
+2024AMC10B12,Combinatorics,1,0,1
+2025AIMEI13,Combinatorics,1,0,1
+2025AMC12B17,Combinatorics,1,1,2
+2016AMC10B23,Geometry,3,2,5
+2017AMC10B22,Geometry,2,0,2
+2018AMC10B24,Geometry,3,1,4
+2018AMC12B21,Geometry,2,1,3
+2019AMC10B16,Geometry,2,3,5
+2019AMC12B25,Geometry,3,0,3
+2020AMC12A12,Geometry,5,0,5
+2020AMC12B12,Geometry,6,0,6
+2021AMC12B22,Geometry,4,0,4
+2021AMC12B24,Geometry,5,1,6
+2022AMC10B20,Geometry,3,1,4
+2022AMC10B22,Geometry,1,0,1
+2023AMC12B25,Geometry,2,0,2
+2025AIMEII14,Geometry,3,0,3
+2025AMC12B10,Geometry,6,0,6
+2025AMC12B25,Geometry,3,0,3
+2016AMC10A25,Number Theory,2,0,2
+2017AIMEI12,Number Theory,4,1,5
+2017AMC10B14,Number Theory,2,0,2
+2017AMC10B25,Number Theory,4,0,4
+2018AIMEI12,Number Theory,5,0,5
+2018AIMEI6,Number Theory,2,0,2
+2018AMC10A18,Number Theory,4,0,4
+2019AMC10A18,Number Theory,2,0,2
+2019AMC10A25,Number Theory,2,0,2
+2020AMC10A22,Number Theory,2,0,2
+2020AMC10A24,Number Theory,3,0,3
+2020AMC10B22,Number Theory,4,0,4
+2021AMC12A25,Number Theory,3,2,5
+2023AMC12A20,Number Theory,3,0,3
+2024AIMEI13,Number Theory,3,1,4
+2016AMC10A17,Probability,3,0,3
+2016AMC12A19,Probability,4,3,7
+2016AMC12A23,Probability,3,2,5
+2017AMC12A10,Probability,2,2,4
+2017AMC12A22,Probability,1,2,3
+2018AMC12A24,Probability,2,0,2
+2020AMC10A13,Probability,2,1,3
+2020AMC10A25,Probability,1,1,2
+2020AMC10B18,Probability,4,1,5
+2021AIMEI12,Probability,2,3,5
+2021AMC10A9,Probability,1,0,1
+2021AMC12B17,Probability,3,0,3
+2023AIMEI6,Probability,4,0,4
+2023AMC12A17,Probability,4,0,4
+2023AMC12A21,Probability,2,0,2
+2024AMC10A17,Probability,1,1,2

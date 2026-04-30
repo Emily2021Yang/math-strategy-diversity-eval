@@ -1,0 +1,5 @@
+generated_model_id,model_label,n_problem_model_pairs,full_total,run1_total,run2_total,union_full_run1_total,union_all_three_total,full_avg_per_problem,run1_avg_per_problem,run2_avg_per_problem,union_full_run1_avg_per_problem,union_all_three_avg_per_problem,new_in_run1_vs_full_total,new_in_run2_vs_full_total,new_in_run2_vs_full_run1_union_total,problem_model_pairs_new_in_run1_vs_full,problem_model_pairs_new_in_run2_vs_full,problem_model_pairs_new_in_run2_vs_full_run1_union
+claude-opus-4-6,Claude,20,28,26,24,32,34,1.4,1.3,1.2,1.6,1.7,4,4,2,4,4,2
+deepseek-reasoner,DeepSeek,20,35,35,37,43,46,1.75,1.75,1.85,2.15,2.3,8,9,3,7,8,3
+gpt-5.4,GPT,20,35,39,37,42,44,1.75,1.95,1.85,2.1,2.2,7,4,2,6,3,2
+gemini-3.1-pro-preview,Gemini,20,46,43,44,52,54,2.3,2.15,2.2,2.6,2.7,6,6,2,5,6,2

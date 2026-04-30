@@ -1,0 +1,6 @@
+| Model | Correct / Total | Overall Accuracy | Conditional Accuracy |
+| --- | --- | --- | --- |
+| Claude | 76 / 80 | 0.95 | 0.95 |
+| DeepSeek | 79 / 80 | 0.9875 | 1.0 |
+| GPT | 77 / 80 | 0.9625 | 0.9871794871794872 |
+| Gemini | 80 / 80 | 1.0 | 1.0 |
