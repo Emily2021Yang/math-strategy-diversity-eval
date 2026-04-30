@@ -14,7 +14,7 @@ The released dataset is hosted separately. This repository is the reproducibilit
 - `src/`: parsing and coding scripts
 - `analysis.ipynb`: analysis notebook
 - `analysis_outputs/`: paper-facing summary files
-- `paper/`: manuscript drafts, tables, and figures
+- `assets/`: manuscript drafts, tables, and figures
 - `docs/`: supporting notes
 - `data_links/`: links to the public dataset release
 
