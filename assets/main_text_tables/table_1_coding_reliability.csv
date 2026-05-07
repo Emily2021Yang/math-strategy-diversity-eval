@@ -1,0 +1,6 @@
+Comparison,Subset,Field,N,Kappa / Agreement
+GPT vs Gemini,All coded rows,strategy_id,924,0.805 / 85.4%
+GPT vs Gemini,All coded rows,strategy_valid,924,0.651 / 93.9%
+GPT vs Gemini,All coded rows,result_correct,924,0.950 / 99.6%
+Human vs agreed AI,Sampled AI-agreement rows,strategy_id,261,0.793 / 84.7%
+Human vs agreed AI,Sampled AI-agreement rows,strategy_valid,267,0.958 / 99.6%

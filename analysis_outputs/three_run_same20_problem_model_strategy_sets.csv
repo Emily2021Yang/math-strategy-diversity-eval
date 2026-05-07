@@ -35,7 +35,7 @@ problem_id,generated_model_id,model_label,full_strategy_ids,run1_strategy_ids,ru
 2019AMC10B16,deepseek-reasoner,DeepSeek,s2,s1|s2,s1|s2,1,2,2,s1|s2,2,s1|s2,2,s1,1,s1,1,,0,,0
 2019AMC10B16,gemini-3.1-pro-preview,Gemini,n1|s1|s2,n2|n3|s2,n3|s2,3,3,2,n1|n2|n3|s1|s2,5,n1|n2|n3|s1|s2,5,n2|n3,2,n3,1,,0,n1|s1,2
 2019AMC10B16,gpt-5.4,GPT,s2,s1|s2,n3|s1|s2,1,2,3,s1|s2,2,n3|s1|s2,3,s1,1,n3|s1,2,n3,1,,0
-2020AMC10A22,claude-opus-4-6,Claude,,s2,s2,0,1,1,s2,1,s2,1,s2,1,s2,1,,0,,0
+2020AMC10A22,claude-opus-4-6,Claude,,,s2,0,0,1,,0,s2,1,,0,s2,1,s2,1,,0
 2020AMC10A22,deepseek-reasoner,DeepSeek,s2,s2,s2,1,1,1,s2,1,s2,1,,0,,0,,0,,0
 2020AMC10A22,gemini-3.1-pro-preview,Gemini,s2,s2,s2,1,1,1,s2,1,s2,1,,0,,0,,0,,0
 2020AMC10A22,gpt-5.4,GPT,s2,s2,s2,1,1,1,s2,1,s2,1,,0,,0,,0,,0
@@ -71,7 +71,7 @@ problem_id,generated_model_id,model_label,full_strategy_ids,run1_strategy_ids,ru
 2024AIMEI11,deepseek-reasoner,DeepSeek,n1,,n1,1,0,1,n1,1,n1,1,,0,,0,,0,,0
 2024AIMEI11,gemini-3.1-pro-preview,Gemini,n1|n2,n1,n1,2,1,1,n1|n2,2,n1|n2,2,,0,,0,,0,n2,1
 2024AIMEI11,gpt-5.4,GPT,n1,n1,n1,1,1,1,n1,1,n1,1,,0,,0,,0,,0
-2024AIMEI13,claude-opus-4-6,Claude,s2,n1|s2,s1|s2,1,2,2,n1|s2,2,n1|s1|s2,3,n1,1,s1,1,s1,1,,0
+2024AIMEI13,claude-opus-4-6,Claude,s2,s2,s1|s2,1,1,2,s2,1,s1|s2,2,,0,s1,1,s1,1,,0
 2024AIMEI13,deepseek-reasoner,DeepSeek,n1|s2,s1|s2|s3,n1|s2|s3,2,3,3,n1|s1|s2|s3,4,n1|s1|s2|s3,4,s1|s3,2,s3,1,,0,,0
 2024AIMEI13,gemini-3.1-pro-preview,Gemini,s1|s2|s3,s1|s3,s3,3,2,1,s1|s2|s3,3,s1|s2|s3,3,,0,,0,,0,s2,1
 2024AIMEI13,gpt-5.4,GPT,s2|s3,s2|s3,s1|s2|s3,2,2,3,s2|s3,2,s1|s2|s3,3,,0,s1,1,s1,1,,0

@@ -1,0 +1,9 @@
+benchmark_model,strategy_source_type,count,total_count,proportion
+claude-opus-4-6,AoPS_reference,145,155,0.9354838709677419
+claude-opus-4-6,Novel_AI,10,155,0.06451612903225806
+deepseek-reasoner,AoPS_reference,175,203,0.8620689655172413
+deepseek-reasoner,Novel_AI,28,203,0.13793103448275862
+gemini-3.1-pro-preview,AoPS_reference,222,261,0.8505747126436781
+gemini-3.1-pro-preview,Novel_AI,39,261,0.14942528735632185
+gpt-5.4,AoPS_reference,210,236,0.8898305084745762
+gpt-5.4,Novel_AI,26,236,0.11016949152542373

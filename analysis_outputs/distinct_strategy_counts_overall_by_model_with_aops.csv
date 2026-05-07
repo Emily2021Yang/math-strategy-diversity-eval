@@ -1,0 +1,6 @@
+benchmark_model,num_problems,total_distinct_strategies,average_distinct_strategies,median_distinct_strategies
+AoPS,80,217,2.7125,3.0
+claude-opus-4-6,80,110,1.375,1.0
+deepseek-reasoner,80,152,1.9,2.0
+gemini-3.1-pro-preview,80,184,2.3,2.0
+gpt-5.4,80,151,1.8875,2.0

@@ -1,27 +1,84 @@
-# math-strategy-diversity-eval
-A strategy diversity evaluation framework for mathematical reasoning with released data, coding tools, and reproducible analysis.
+# Strategy Diversity Evaluation Framework for Mathematical Reasoning
 
-The framework evaluates model reasoning along three dimensions:
+This repository is the **reproducibility package** for the strategy-diversity benchmark paper. It contains the code, analysis notebooks, prompts, and paper-facing assets used to reproduce the released results.
 
-1. final-answer accuracy
-2. coverage of human reference strategies
+The benchmark evaluates mathematical reasoning along three linked dimensions:
+
+1. final-answer correctness
+2. recovery of AoPS reference strategies
 3. benchmark-novel valid strategies
 
-The released dataset is hosted separately. This repository is the reproducibility package for the paper and analysis.
+The released benchmark data are hosted separately. This repository is the companion code-and-analysis package.
 
-## Contents
+## Public links
 
-- `src/`: parsing and coding scripts
-- `analysis.ipynb`: analysis notebook
-- `analysis_outputs/`: paper-facing summary files
-- `assets/`: manuscript drafts, tables, and figures
-- `docs/`: supporting notes
-- `data_links/`: links to the public dataset release
+- GitHub repository: `https://github.com/Emily2021Yang/math-strategy-diversity-eval.git`
+- Kaggle dataset: `https://doi.org/10.34740/kaggle/ds/10271409`
+- Paper link: `TBD`
+- Hugging Face mirror: `TBD`
 
-## Dataset
+## Repository layout
 
-Public dataset links at Kaggle:
-https://doi.org/10.34740/kaggle/ds/10271409
+```text
+github_repo/
+├── analysis.ipynb
+├── analysis_outputs/
+├── assets/
+│   ├── main_text_figures/
+│   ├── appendix_figures/
+│   ├── main_text_tables/
+│   ├── appendix_tables/
+│   └── manuscript/
+├── docs/
+├── data_links/
+└── src/
+    ├── prompts/
+    ├── coding/
+    ├── preprocessing/
+    └── runners/
+```
+
+## What is in the repository
+
+### `src/`
+
+Core workflow assets:
+
+- benchmark prompts
+- AI-coder prompt
+- n-shot coding examples
+- preprocessing scripts for long-format conversion
+- run scripts for benchmark querying and strategy coding
+
+### `analysis.ipynb`
+
+Primary notebook for generating paper-facing summaries and figures from the released benchmark files.
+
+### `analysis_outputs/`
+
+CSV and image outputs used to support the current paper analyses, including:
+
+- overall and domain-level paired-gap summaries
+- domain coverage and novelty summaries
+- repeated-run summary files for the 20-problem subset
+
+### `assets/`
+
+Paper-facing figures, tables, and manuscript drafts. These are organized by role rather than by the full paper build system.
+
+## Reproducing the current paper workflow
+
+At a high level:
+
+1. download the released dataset from Kaggle
+2. use `src/preprocessing/` and `src/runners/` for query/coding workflows if needed
+3. reproduce analysis summaries and figures from `analysis.ipynb`
+
+The released paper uses the finalized files in the public dataset release, especially:
+
+- `full80_prompt_multi_annotation/Full80_valid_correct_strategies_annotated.csv`
+- `repeated_run_subset20/subset20_multi_run1_annotated.csv`
+- `repeated_run_subset20/subset20_multi_run2_annotated.csv`
 
 ## Definitions
 
@@ -29,18 +86,12 @@ https://doi.org/10.34740/kaggle/ds/10271409
 - `n#`: benchmark-novel valid strategy for a specific problem
 - `novel`: novel relative to the collected AoPS corpus, not universally novel in mathematics
 
-## Reproducing the analysis
+## Notes
 
-To reproduce the paper workflow:
-
-1. download the released dataset
-2. run the parsing and coding scripts in `src/`
-3. reproduce tables and figures from `analysis.ipynb`
-
-## License
-
-Code in this repository may be released under a separate license from the dataset. See the dataset release for data-specific usage notes.
+- Strategy identifiers are problem-specific rather than global.
+- The repeated-run subset is intended for robustness and saturation analysis, not as a separate benchmark.
+- Intermediate run folders elsewhere in the project tree are not the public release; the dataset release contains the finalized benchmark artifacts used in the current paper.
 
 ## Citation
 
-If you use this project, please cite the associated paper and link both the repository and the dataset release.
+If you use this repository, please cite the associated paper and link both the repository and the dataset release.

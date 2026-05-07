@@ -1,0 +1,2 @@
+num_problem_model_pairs,orig_total,orig_avg_per_problem_model,repeat_total,repeat_avg_per_problem_model,union_total,union_avg_per_problem_model,pairs_with_new_strategy_in_repeat,total_new_strategies_in_repeat
+80,144,1.8,128,1.6,162,2.025,18,18

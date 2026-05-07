@@ -1,0 +1,51 @@
+problem_id,final_distinct_strategy_id,domain,GPT,Gemini,DeepSeek,Claude,pattern,num_models
+2016AIMEII13,n1,Combinatorics,0,1,0,0,Gemini,1
+2016AMC10A18,n1,Combinatorics,0,1,0,0,Gemini,1
+2016AMC10B23,n1,Geometry,1,0,0,0,GPT,1
+2016AMC10B23,n2,Geometry,0,1,1,1,Gemini+DeepSeek+Claude,3
+2016AMC12A19,n1,Probability,1,1,1,0,GPT+Gemini+DeepSeek,3
+2016AMC12A19,n2,Probability,1,0,1,1,GPT+DeepSeek+Claude,3
+2016AMC12A19,n3,Probability,0,1,0,0,Gemini,1
+2016AMC12A23,n1,Probability,1,1,1,0,GPT+Gemini+DeepSeek,3
+2016AMC12A23,n2,Probability,1,0,0,0,GPT,1
+2017AIMEI12,n1,Number Theory,0,0,1,0,DeepSeek,1
+2017AIMEII11,n1,Combinatorics,1,0,0,0,GPT,1
+2017AIMEII11,n2,Combinatorics,1,1,1,1,GPT+Gemini+DeepSeek+Claude,4
+2017AIMEII11,n3,Combinatorics,1,0,1,0,GPT+DeepSeek,2
+2017AIMEII11,n4,Combinatorics,0,1,0,1,Gemini+Claude,2
+2017AMC12A10,n1,Probability,0,1,1,1,Gemini+DeepSeek+Claude,3
+2017AMC12A10,n2,Probability,0,0,1,0,DeepSeek,1
+2017AMC12A15,n1,Algebra,1,0,0,0,GPT,1
+2017AMC12A15,n2,Algebra,0,1,0,0,Gemini,1
+2017AMC12A22,n1,Probability,1,0,0,0,GPT,1
+2017AMC12A22,n2,Probability,0,1,0,0,Gemini,1
+2018AMC10B24,n1,Geometry,1,1,1,0,GPT+Gemini+DeepSeek,3
+2018AMC12B21,n1,Geometry,1,0,1,0,GPT+DeepSeek,2
+2019AMC10B16,n1,Geometry,0,1,0,0,Gemini,1
+2020AMC10A13,n1,Probability,1,0,0,0,GPT,1
+2020AMC10A25,n1,Probability,0,0,1,0,DeepSeek,1
+2020AMC10B18,n1,Probability,1,1,1,1,GPT+Gemini+DeepSeek+Claude,4
+2020AMC10B23,n1,Combinatorics,0,1,1,1,Gemini+DeepSeek+Claude,3
+2021AIMEI12,n1,Probability,0,1,0,0,Gemini,1
+2021AIMEI12,n2,Probability,0,0,0,1,Claude,1
+2021AIMEI12,n3,Probability,1,1,0,0,GPT+Gemini,2
+2021AMC12A25,n1,Number Theory,0,1,0,0,Gemini,1
+2021AMC12A25,n2,Number Theory,0,1,1,0,Gemini+DeepSeek,2
+2021AMC12B21,n1,Algebra,0,1,0,0,Gemini,1
+2021AMC12B24,n1,Geometry,0,1,0,0,Gemini,1
+2022AMC10A14,n1,Combinatorics,0,1,1,0,Gemini+DeepSeek,2
+2022AMC10A14,n2,Combinatorics,1,1,1,0,GPT+Gemini+DeepSeek,3
+2022AMC10A24,n1,Combinatorics,1,0,1,0,GPT+DeepSeek,2
+2022AMC10B14,n1,Combinatorics,0,1,0,0,Gemini,1
+2022AMC10B18,n1,Combinatorics,0,1,0,0,Gemini,1
+2022AMC10B20,n1,Geometry,1,1,1,1,GPT+Gemini+DeepSeek+Claude,4
+2023AMC10A18,n1,Combinatorics,0,1,1,1,Gemini+DeepSeek+Claude,3
+2023AMC12A24,n1,Combinatorics,0,1,0,0,Gemini,1
+2023AMC12A24,n2,Combinatorics,0,1,0,0,Gemini,1
+2023AMC12B5,n1,Combinatorics,1,1,0,0,GPT+Gemini,2
+2023AMC12B5,n2,Combinatorics,0,0,1,0,DeepSeek,1
+2024AIMEI11,n1,Combinatorics,1,1,1,0,GPT+Gemini+DeepSeek,3
+2024AIMEI11,n2,Combinatorics,0,1,0,0,Gemini,1
+2024AIMEI13,n1,Number Theory,0,0,1,0,DeepSeek,1
+2024AMC10A17,n1,Probability,0,1,1,0,Gemini+DeepSeek,2
+2025AMC12B17,n1,Combinatorics,1,1,0,0,GPT+Gemini,2

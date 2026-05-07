@@ -8,7 +8,7 @@ problem_id,full_total_across_models,run1_total_across_models,run2_total_across_m
 2018AMC12B21,8,7,6,8,0,0
 2019AMC10A17,5,6,6,6,1,0
 2019AMC10B16,6,7,8,11,4,1
-2020AMC10A22,3,4,4,4,1,0
+2020AMC10A22,3,3,4,4,0,1
 2020AMC10B18,10,11,10,12,2,0
 2021AMC12B17,8,8,6,8,0,0
 2021AMC12B21,10,10,9,14,3,1
@@ -17,5 +17,5 @@ problem_id,full_total_across_models,run1_total_across_models,run2_total_across_m
 2023AMC12A24,7,7,5,8,1,0
 2023AMC12B25,4,4,4,4,0,0
 2024AIMEI11,4,2,3,4,0,0
-2024AIMEI13,8,9,9,13,3,2
+2024AIMEI13,8,8,9,12,2,2
 2025AMC10A5,10,9,10,15,3,2

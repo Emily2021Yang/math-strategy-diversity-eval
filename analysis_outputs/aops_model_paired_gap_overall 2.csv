@@ -1,0 +1,5 @@
+analysis_group,group_value,benchmark_model,benchmark_model_label,n_problems,mean_model_distinct_strategies,mean_aops_distinct_strategies,mean_gap_model_minus_aops,median_gap_model_minus_aops,gap_bootstrap_ci_lower,gap_bootstrap_ci_upper,paired_permutation_stat_mean_gap,paired_permutation_p_two_sided,paired_permutation_method,mean_ratio_model_over_aops,ratio_bootstrap_ci_lower,ratio_bootstrap_ci_upper
+overall,all_80,claude-opus-4-6,Claude,80,1.375,2.7125,-1.3375,-1.0,-1.625,-1.0625,-1.3375,0.0,monte_carlo_sign_flip_50000,0.5489583333333334,0.46395833333333336,0.6368750000000001
+overall,all_80,deepseek-reasoner,DeepSeek,80,1.9,2.7125,-0.8125,-1.0,-1.0375,-0.5875,-0.8125,0.0,monte_carlo_sign_flip_50000,0.7895833333333334,0.6960416666666667,0.8947916666666667
+overall,all_80,gemini-3.1-pro-preview,Gemini,80,2.3,2.7125,-0.4125,0.0,-0.6375,-0.2,-0.4125,0.0008,monte_carlo_sign_flip_50000,0.9629166666666666,0.8616666666666667,1.0772916666666668
+overall,all_80,gpt-5.4,GPT,80,1.8875,2.7125,-0.825,-1.0,-1.075,-0.5875,-0.825,0.0,monte_carlo_sign_flip_50000,0.8027083333333334,0.7079166666666665,0.9089583333333333

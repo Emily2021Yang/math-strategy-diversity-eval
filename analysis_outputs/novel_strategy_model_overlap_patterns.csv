@@ -1,0 +1,13 @@
+pattern,num_models,novel_strategy_count
+GPT+Gemini+DeepSeek+Claude,4,3
+GPT+Gemini+DeepSeek,3,5
+Gemini+DeepSeek+Claude,3,4
+GPT+DeepSeek+Claude,3,1
+GPT+DeepSeek,2,3
+GPT+Gemini,2,3
+Gemini+DeepSeek,2,3
+Gemini+Claude,2,1
+Gemini,1,15
+GPT,1,6
+DeepSeek,1,5
+Claude,1,1

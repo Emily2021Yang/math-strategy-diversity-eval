@@ -1,0 +1,5 @@
+benchmark_model,single_correct,single_total,single_pct,multi_correct,multi_total,multi_pct,delta_pct
+Claude,76,80,95.0,69,80,86.2,-8.8
+DeepSeek,79,80,98.8,77,80,96.2,-2.6
+GPT,77,80,96.2,78,79,98.7,2.5
+Gemini,80,80,100.0,80,80,100.0,0.0

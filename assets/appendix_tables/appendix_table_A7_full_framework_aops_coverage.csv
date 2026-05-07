@@ -1,0 +1,5 @@
+Model,AoPSRef,Novel,Total,AoPSCoverageRate
+Claude,100,10,110,46.1
+DeepSeek,128,24,152,59.0
+GPT,130,21,151,59.9
+Gemini,150,34,184,69.1

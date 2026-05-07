@@ -1,0 +1,21 @@
+benchmark_model,domain,single_correct,single_total,single_pct,multi_correct,multi_total,multi_pct,delta_pct
+Claude,Algebra,13,14,92.9,13,14,92.9,0.0
+Claude,Combinatorics,16,19,84.2,15,19,78.9,-5.3
+Claude,Geometry,16,16,100.0,12,16,75.0,-25.0
+Claude,Number Theory,15,15,100.0,13,15,86.7,-13.3
+Claude,Probability,16,16,100.0,16,16,100.0,0.0
+DeepSeek,Algebra,14,14,100.0,13,14,92.9,-7.1
+DeepSeek,Combinatorics,18,19,94.7,17,19,89.5,-5.2
+DeepSeek,Geometry,16,16,100.0,16,16,100.0,0.0
+DeepSeek,Number Theory,15,15,100.0,15,15,100.0,0.0
+DeepSeek,Probability,16,16,100.0,16,16,100.0,0.0
+GPT,Algebra,14,14,100.0,14,14,100.0,0.0
+GPT,Combinatorics,17,19,89.5,17,18,94.4,4.9
+GPT,Geometry,15,16,93.8,16,16,100.0,6.2
+GPT,Number Theory,15,15,100.0,15,15,100.0,0.0
+GPT,Probability,16,16,100.0,16,16,100.0,0.0
+Gemini,Algebra,14,14,100.0,14,14,100.0,0.0
+Gemini,Combinatorics,19,19,100.0,19,19,100.0,0.0
+Gemini,Geometry,16,16,100.0,16,16,100.0,0.0
+Gemini,Number Theory,15,15,100.0,15,15,100.0,0.0
+Gemini,Probability,16,16,100.0,16,16,100.0,0.0
