@@ -33,7 +33,7 @@ github_repo/
 ├── data_links/
 └── src/
     ├── prompts/
-    ├── coding/
+    ├── in-context example/
     ├── preprocessing/
     └── runners/
 ```

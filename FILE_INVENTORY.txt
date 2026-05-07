@@ -24,7 +24,7 @@ analysis_outputs/three_run_same20_overall_summary.csv
 data_links/DATASET_LINKS.md
 docs/dataset_notes.md
 src/README.md
-src/coding/coding_examples_nshot.csv
+src/in-context example/coding_examples_nshot.csv
 src/preprocessing/convert_multi_responses_to_long_format.py
 src/prompts/prompt_single.txt
 src/prompts/prompt_multi.txt
